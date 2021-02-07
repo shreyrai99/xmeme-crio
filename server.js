@@ -24,7 +24,7 @@ mongoose
     .catch(err=>console.log(err));
 // ********************************************
 
-app.get('/', (req,res)=>res.send('Hello World!'));
+
 
 //use routes
 app.use('/memes',users);
