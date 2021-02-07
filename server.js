@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const users = require('./routes/api/users');
 const bodyParser = require('body-parser');
-
+const path = require('path');
 
 // Body Parser Middleware**************
 app.use(bodyParser.urlencoded({extended:false}));
