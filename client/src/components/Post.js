@@ -81,9 +81,9 @@ class Post extends Component {
                     {errors.name  && (<div className="invalid-feedback">{errors.name}</div>)}
                     </div>
                     <div className="form-group">
-                    <input type="text"  placeholder="* URL of Meme" name="url" value={this.state.url} onChange={this.onChange} 
+                    <input type="url"  placeholder="* URL of Meme" name="url" value={this.state.url} onChange={this.onChange} 
                      className={classnames('form-control form-control-lg',{'is-invalid': errors.url})}
-                    />
+                     style={{  overflow:"auto", width:"100%", height:"50px" }}  />
                     {errors.url && (<div className="invalid-feedback">{errors.url}</div>)}                    
                     </div>
 
