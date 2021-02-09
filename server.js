@@ -29,7 +29,7 @@ mongoose
 //use routes
 app.use('/memes',users);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8081;
 
 
 //serve static assets if in production
