@@ -1,4 +1,3 @@
-sudo apt-get install nodejs
-sudo apt install mongodb-org
+sudo apt-get install -y nodejs mongodb-org 
 
-npm run dev
+
