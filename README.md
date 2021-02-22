@@ -4,8 +4,6 @@ A website for posting memes and enjoying memes posted by others :)
 
 ## Website is live [here](https://sleepy-headland-99561.herokuapp.com/).
 <br /><br />
- 
-
 <br/><br/>
 ## Technologies Used
 
@@ -20,4 +18,3 @@ A website for posting memes and enjoying memes posted by others :)
 
 
 <br/><br/>
-## X-Meme: A  laugh a day keeps the doctor away :D
